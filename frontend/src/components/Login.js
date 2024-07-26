@@ -2,7 +2,7 @@ import React from 'react'
 
 
 function Login() {
-  return (
+  return (<div>
     <div>
       <div>
         <form action="">
@@ -12,6 +12,7 @@ function Login() {
             </div>
         </form>
       </div>
+    </div>
     </div>
   )
 }
