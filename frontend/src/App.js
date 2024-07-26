@@ -13,6 +13,10 @@ import Login from './components/Login';
 import Community from './components/Community';
 import LeaderBoard from './components/LeaderBoard';
 import News from './components/News';
+import PersonalHealthManagement from './components/PersonalHealthManagement';
+import WellnessPrograms from './components/WellnessPrograms';
+import Resources from './components/Resources';
+import InteractiveTools from './components/InteractiveTools';
 
 
 
@@ -29,6 +33,11 @@ function App() {
           <Route path="/Community" element={<Community/>} />
           <Route path="/LeaderBoard" element={<LeaderBoard/>} />
           <Route path="/News" element={<News/>} />
+          <Route path="/PersonalHealthManagement" element={<PersonalHealthManagement/>} />
+          <Route path="/WellnessPrograms" element={<WellnessPrograms/>} />
+          <Route path="/Resorces" element={<Resources/>} />          
+          <Route path="/InteractiveTools" element={<InteractiveTools/>} />          
+
         </Routes>
       </BrowserRouter>
       

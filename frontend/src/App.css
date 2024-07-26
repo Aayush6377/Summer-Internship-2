@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Playwrite+CU:wght@100..400&display=swap');
 *{
   padding: 0;
   margin:0;
@@ -8,8 +9,15 @@
 
 .NavBar{
   height: 70px;
-  background-color: black;
+  background-color: rgb(0, 109, 82);
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.NavBar {
+  font-family: "Comfortaa", sans-serif;
+  font-weight: 200;
+  color: aquamarine;
+  padding: 20px;
 }
