@@ -5,6 +5,26 @@ const Home = () => {
         
         <div>
             <h2>Home</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
             <footer className="text-gray-600 body-font">
                 <div className="container px-5 py-24 mx-auto">
                     <div className="flex flex-wrap md:text-left text-center order-first">

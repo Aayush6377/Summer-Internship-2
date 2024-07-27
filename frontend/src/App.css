@@ -5,19 +5,69 @@
   box-sizing: border-box;
 }
 
+
+
+
 /*------ NavBar----- */
 
-.NavBar{
-  height: 70px;
+.NavBar .nav{
+  height: 90px;
   background-color: rgb(0, 109, 82);
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 20px;
 }
 
 .NavBar {
   font-family: "Comfortaa", sans-serif;
   font-weight: 200;
   color: aquamarine;
-  padding: 20px;
+  font-size: 15px;
+}
+
+.abt {
+  padding-left: 300px;
+
+}
+
+.nav :hover{
+  color: rgb(2, 13, 10);
+}
+
+
+/*---- cursor animation --------*/
+
+body {
+  cursor: none; /* Hide the default cursor */
+}
+
+.cursor {
+  position: fixed;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.8);
+  pointer-events: none;
+  z-index: 1000;
+  box-shadow: 0 0 10px rgba(255, 255, 0, 0.8), 
+              0 0 20px rgba(255, 255, 0, 0.662), 
+              0 0 30px rgba(255, 255, 0, 0.4), 
+              0 0 40px rgba(255, 255, 0, 0.2);
+  animation: sparkle 0.5s infinite;
+}
+
+@keyframes sparkle {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.5);
+    opacity: 0.5;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
 }

@@ -3,8 +3,10 @@ import { Link } from 'react-router-dom';
 const NavBar = () => {
     return (
         <nav className="NavBar">
+            <div className='nav'>
             <Link to="/">Home</Link>
-            <Link to="/About">About</Link>
+            <div className='abt'><Link to="/About">About</Link></div>
+            
             <Link to="/login">login</Link>
             <Link to="/Community">Community</Link>
             <Link to="/LeaderBoard">LeaderBoard</Link>
@@ -12,7 +14,8 @@ const NavBar = () => {
             <Link to="/InteractiveTools">Tools</Link>
             <Link to="/News">News</Link>
             <Link to="/PersonalHealthManagement">Health Management</Link>
-            <Link to="/WellnessPrograms">Wellness Programs</Link>
+            <Link to="/WellnessPrograms">Wellness Programs</Link></div>
+            
 
         </nav> 
 
