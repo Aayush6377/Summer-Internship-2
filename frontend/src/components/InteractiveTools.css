@@ -1,0 +1,99 @@
+/* src/components/InteractiveTools.css */
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Playwrite+CU:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Playwrite+CU:wght@100..400&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+  
+  .interactive-tools-container {
+    max-width: 500px;
+    margin: -100px auto 0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: transparent;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #01070e;
+    backdrop-filter: blur(9px);
+    border: 1px solid #fdfbfb;
+  }
+
+  .interactive-tools-background {
+    background-image: url('https://images.unsplash.com/photo-1466637574441-749b8f19452f?q=80&w=1780&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .interactive-tools-header {
+    color: #fffcfc;
+    text-align: center;
+   
+  }
+  
+  .bmi-calculator-header {
+    color: #ffffff;
+    text-align: center;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+
+  }
+  
+  .bmi-calculator-input {
+    width: calc(50% - 10px);
+    padding: 10px;
+    margin: 5px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    color: rgb(17, 98, 64);
+  }
+  
+  .bmi-calculator-button {
+    width: 100%;
+    padding: 5px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 4px;
+    background-color: #1a7d63;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 18px;
+  }
+  
+  .bmi-calculator-button:hover {
+    background-color: #135f47;
+  }
+  
+  .bmi-result {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .bmi-ranges {
+    margin-top: 20px;
+  }
+  
+  .bmi-ranges ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .bmi-ranges li {
+    padding: 5px 0;
+  }
+  
+  .diet-suggestion {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #e9ecef;
+    border-radius: 4px;
+    color: #135f47;
+  }
+  
