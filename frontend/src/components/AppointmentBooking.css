@@ -1,0 +1,140 @@
+.personal-health-management {
+  font-family: Arial, sans-serif;
+}
+
+.service-cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.service-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 300px;
+  margin: 10px;
+  padding: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.service-card img {
+  max-width: 100%;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 15px;
+}
+
+.service-card h2 {
+  font-size: 1.5em;
+  margin: 15px 0;
+  font-weight: 100;
+}
+
+.service-card p {
+  color: #555;
+}
+
+.service-card button {
+  padding: 10px 20px;
+  background-color: #004d40;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-left: 75px;
+
+}
+
+.service-card button:hover {
+  background-color: #00362c;
+}
+
+
+.appointment-booking {
+    font-family: Arial, sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-weight: 100;
+  }
+  
+  h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    font-weight: 100;
+  }
+  
+  p {
+    margin-bottom: 20px;
+    color: #666;
+    font-weight: lighter;
+  }
+  
+  .booking-section {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 100;
+  }
+  
+  .date-time-selector {
+    flex: 1;
+  }
+  
+  .date-time-selector h2,
+  .service-details h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    font-weight: 100;
+  }
+  
+  .time-selector h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: 100;
+  }
+  
+  .time-slots {
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+  
+  .time-slot {
+    padding: 10px 20px;
+    margin: 5px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    background-color: #f9f9f9;
+    transition: background-color 0.3s;
+    color: #00362c;
+  }
+  
+  .time-slot.selected {
+    background-color: #95f195;
+    border-color: #337d35;
+  }
+  
+  .time-slot:hover {
+    background-color: #0d823a;
+  }
+  
+  .service-details {
+    flex: 0.4;
+    border-left: 1px solid #ddd;
+    padding-left: 40px;
+  }
+  
+  .next-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #004d40;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .next-button:hover {
+    background-color: #00362c;
+  }
+  

@@ -31,14 +31,13 @@ const Login = () => {
   };
 
   return (
-    <>
+    <div className="login-page">
       <div className="form-container">
         <div className="container-1">
-          <h3>Welcome to 
-            Health & Wellness Hub</h3>
+          <h3>Welcome to Health & Wellness Hub</h3>
           <p>
             Your ultimate destination for all things nutrition and wellness. 
-            <br></br>
+            <br />
             Our mission is to empower you with the knowledge, tools, and support you need to lead a vibrant and healthy life.
           </p>
         </div>
@@ -85,7 +84,7 @@ const Login = () => {
           </form>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

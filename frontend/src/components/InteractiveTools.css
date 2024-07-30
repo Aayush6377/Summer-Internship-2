@@ -72,10 +72,14 @@
   }
   
   .bmi-result {
+    color: #000000;
     text-align: center;
     margin-top: 20px;
+    
   }
   
+  
+
   .bmi-ranges {
     margin-top: 20px;
   }
@@ -92,7 +96,7 @@
   .diet-suggestion {
     margin-top: 20px;
     padding: 10px;
-    background-color: #e9ecef;
+    background-color: #d5dfe9;
     border-radius: 4px;
     color: #135f47;
   }
