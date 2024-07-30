@@ -2,7 +2,7 @@ const Home = () => {
     return (
         <div>
            
-            <main>
+            <main> 
                 <div className="content-wrapper">
                     <section className="resources">
                         <h2>Resources for Different Age Groups</h2>
