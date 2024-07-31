@@ -1,0 +1,65 @@
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    
+  }
+  
+
+  .header, .footer {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  
+  .container {
+    display: flex;
+    width: 100%;
+
+  }
+  
+  /* Ensure images are responsive */
+  .container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  /* Content styling */
+  .text-content {
+    padding: 20px;
+    max-width: 60%;
+  }
+  
+  .text-content h1 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .text-content p {
+    line-height: 1.9;
+  }
+  
+  /* Footer links */
+  .footer a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 10px;
+  }
+  
+  /* Example image styling */
+  .image1 {
+    height: 50px;
+  }
+  
+  .image2 {
+    height: 100px;
+    width: 500px;
+  }
+  

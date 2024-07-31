@@ -3,6 +3,17 @@ const Home = () => {
         <div>
            
             <main> 
+            <section id="home" class="hero">
+            
+            <div class="hero-content">
+                <h1>Health and Wellbeing</h1>
+                <p></p>
+                <a href="/login" class="cta-button">Get Started</a>
+            </div>
+           </section>
+
+
+
                 <div className="content-wrapper">
                     <section className="resources">
                         <h2>Resources for Different Age Groups</h2>
@@ -27,7 +38,7 @@ const Home = () => {
                         <li>Fitness Tracker</li>
                         <li>Symptom Checker</li>
                     </ul>
-                    <button>View More</button>
+                    <a href="/InteractiveTools" class="cta-button">View More</a>
                 </section>
                 <div className="additional-cards">2 MORE CARDS...</div>
             </main>

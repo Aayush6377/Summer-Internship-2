@@ -106,9 +106,7 @@ header .logo img, footer .logo img {
 
 
 
-main {
-  padding: 20px;
-}
+
 
 .content-wrapper {
   display: flex;
@@ -193,7 +191,7 @@ main {
 
 .additional-cards {
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   font-size: 18px;
   color: #666;
 }
@@ -253,3 +251,45 @@ footer nav ul li a:hover {
 
 /*-------community image ------------*/
 
+.hero {
+  background: url('https://images.unsplash.com/photo-1543362906-acfc16c67564?q=80&w=1965&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') no-repeat center center fixed;
+  background-size: cover;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-content {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    animation: fadeInUp 1s ease-in-out;
+    color: #ccc;
+}
+
+.hero-content p {
+  color: #ccc;
+}
+
+
+.cta-button {
+  display: inline-block;
+  background-color: #08611a;
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #27ae60;
+  transform: translateY(-3px);
+}
