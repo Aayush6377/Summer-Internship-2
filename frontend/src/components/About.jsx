@@ -3,7 +3,7 @@ import './About.css'; // Import the CSS file
 
 const About = () => {
   return (
-    <div>
+    <div className='hello4'>
       
       <div className="container">
         <img className="image2" src="https://images.unsplash.com/photo-1596806031937-0fde01c2047a?q=80&w=1886&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="About Us Image" />
@@ -16,7 +16,7 @@ const About = () => {
       </div>
 
       <footer className="footer">
-        <img className="image1" src="hub.jpg" alt="Logo" />
+        <img className="image1" src="" alt="" />
         <div>
           <a href="about.html">About</a>
           <a href="contact.html">Contact</a>
