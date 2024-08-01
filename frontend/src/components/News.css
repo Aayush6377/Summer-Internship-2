@@ -42,7 +42,7 @@
   .news-item a {
     display: block;
     text-align: center;
-    background-color: #007bff;
+    background-color: #0f682d;
     color: white;
     padding: 10px;
     text-decoration: none;
@@ -50,6 +50,6 @@
   }
   
   .news-item a:hover {
-    background-color: #0056b3;
+    background-color: #27b300;
   }
   
