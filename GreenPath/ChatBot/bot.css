@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center; 
+    height: 100vh;
+    background-color: #e8f5e9; 
+}
+
+.chat-container {
+    width: 90%;
+    max-width: 800px;
+    height: 86vh;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+    margin: auto; 
+    overflow: hidden;
+    margin-top: 25px;
+    display: block; 
+}
+
+.chat-box {
+    height: 70vh; 
+    padding: 20px;
+    overflow-y: auto;
+    background-color: #f1f8e9; 
+    display: block; 
+}
+
+.chat-message {
+    margin-bottom: 15px;
+    display: block; 
+}
+
+.bot-message {
+    text-align: left; 
+}
+
+.user-message {
+    text-align: right; 
+}
+
+.profile-pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    object-fit: cover;
+    display: inline-block; 
+    vertical-align: middle; 
+}
+
+.message-content {
+    display: inline-block; 
+    max-width: 80%; 
+    padding: 12px;
+    border-radius: 12px;
+}
+
+.bot-message .message-content {
+    background-color: #a5d6a7; 
+    color: #333;
+}
+
+.user-message .message-content {
+    background-color: #388E3C; 
+    color: #fff;
+}
+
+.input-container {
+    padding: 20px;
+    background-color: #c8e6c9; 
+    border-top: 1px solid #a5d6a7; 
+    display: flex;
+    align-items: center; 
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 12px;
+    border: 1px solid #a5d6a7; 
+    border-radius: 12px;
+    font-size: 16px;
+    margin-right: 10px; 
+    background-color: #f1f8e9; 
+}
+
+button {
+    padding: 12px 20px;
+    background-color: #388E3C; 
+    color: #fff;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #2c6c2f; 
+}
+
+#loading-indicator {
+    text-align: center;
+    display: none; 
+}
+
+#loading-img {
+    width: 40px;
+    height: 40px;
+}
+
+.message-content pre {
+    background-color: #e8f5e9; 
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+    display: block; 
+}
+
+.message-content code {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    white-space: pre-wrap;
+}

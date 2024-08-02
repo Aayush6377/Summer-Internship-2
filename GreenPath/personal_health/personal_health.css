@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: white;
+    padding: 20px;
+    border-bottom: 2px solid rgb(0, 109, 82); /* Green border */
+    text-align: center;
+}
+
+div h1 {
+    color: rgb(0, 109, 82); /* Green color */
+    margin: 0;
+}
+
+.age-selector {
+    margin-top: 10px;
+}
+
+.age-selector label {
+    font-weight: bold;
+}
+
+.age-selector select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+section h2 {
+    color: rgb(0, 109, 82); /* Green color */
+    margin-top: 0;
+}
+
+#tips-content, #exercise-content, #meal-content, #importance-content {
+    margin-top: 20px;
+}
