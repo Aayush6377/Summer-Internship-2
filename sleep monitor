@@ -1,1 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Character encoding for the document -->
+    <meta charset="UTF-8">
+    <!-- Viewport settings for responsive design -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title of the web page -->
+    <title>Sleep Monitor</title>
+    <!-- Link to external CSS stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Main container for the sleep monitor application -->
+    <div class="container">
+        <!-- Heading for the sleep monitor application -->
+        <h1>Sleep Monitor</h1>
+
+        <!-- Form for user to input sleep data -->
+        <form id="sleep-form">
+            <!-- Input for selecting the date -->
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" required>
+
+            <!-- Input for selecting the start time of sleep -->
+            <label for="sleep-start">Sleep Start Time:</label>
+            <input type="time" id="sleep-start" name="sleep-start" required>
+
+            <!-- Input for selecting the end time of sleep -->
+            <label for="sleep-end">Sleep End Time:</label>
+            <input type="time" id="sleep-end" name="sleep-end" required>
+
+            <!-- Submit button for adding sleep data -->
+            <button type="submit">Add Sleep Data</button>
+        </form>
+
+        <!-- Section to display sleep logs -->
+        <h2>Sleep Logs</h2>
+        <div id="sleep-logs"></div>
+
+        <!-- Section for displaying the sleep chart -->
+        <h2>Sleep Chart</h2>
+        <!-- Canvas element for rendering the sleep chart -->
+        <canvas id="sleep-chart" width="400" height="200"></canvas>
+    </div>
+
+    <!-- Link to external JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
 
