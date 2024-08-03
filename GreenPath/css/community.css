@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+section h2 {
+    color: #27ae60;
+    border-bottom: 2px solid #27ae60;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+textarea {
+    width: calc(100% - 22px);
+    height: 100px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #27ae60;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2ecc71;
+}
+
+#forum-categories, #stories-list, #questions-list, #polls-list {
+    margin-top: 20px;
+}
+
+#forum-categories, #stories-list, #questions-list, #polls-list {
+    background: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#forum-categories h3, #stories-list div, #questions-list div, #polls-list div {
+    margin-bottom: 15px;
+}
+
+#forum-categories p, #stories-list p, #questions-list p, #polls-list p {
+    margin: 5px 0;
+}
+
+a {
+    color: #27ae60;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input[type="text"], form input[type="textarea"] {
+    margin-bottom: 10px;
+}
+
+#story-submission, #ask-question, #create-poll {
+    background: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.poll-options {
+    margin-top: 10px;
+}
+
+.poll-options p {
+    margin: 5px 0;
+}
+
+.vote-button {
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    background-color: #3498db;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.vote-button:hover {
+    background-color: #2980b9;
+}
+
+.vote-button:disabled {
+    background-color: #bdc3c7;
+    cursor: not-allowed;
+}

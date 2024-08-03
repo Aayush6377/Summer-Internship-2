@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h1 {
+    color: rgb(0,109,82);
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.age-selector {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.age-selector label {
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.age-selector select {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+section h2 {
+    color: rgb(0,109,82);
+    border-bottom: 2px solid rgb(0,109,82);
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+#health-tips, #exercise-content, #meal-plans, #importance-content {
+    background-color: rgba(0, 109, 82, 0.1);
+    padding: 15px;
+    border-radius: 5px;
+    line-height: 1.6;
+}
