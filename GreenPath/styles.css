@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Playwrite+CU:wght@100..400&display=swap');
 body {
-    font-family: Arial, sans-serif;
+
+    font-family: "Comfortaa", sans-serif;
+   
     margin: 0;
     padding: 0;
     background-color: #f9f9f9;
@@ -13,11 +16,6 @@ header, footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-footer {
-    text-align: center;
-    margin-top: auto; /* Pushes the footer to the bottom */
 }
 
 header .logo {
@@ -38,12 +36,6 @@ header .logo span {
 footer .logo {
     font-size: 24px;
     font-weight: bold;
-}
-
-nav ul li a.active {
-    background-color: #a5d6a7; /* Light green background */
-    color: #333; /* Dark text for contrast */
-    border-radius: 4px; /* Optional: to match the other styles */
 }
 
 nav ul {
@@ -69,8 +61,13 @@ nav ul li a:hover {
     color: #c8e6c9; /* Light green on hover */
 }
 
-main {
-    padding: 20px;
+.search-profile {
+    display: flex;
+    align-items: center;
+}
+
+.search {
+    margin-right: 10px;
 }
 
 .content-wrapper {
@@ -102,40 +99,6 @@ main {
     margin-bottom: 10px;
 }
 
-.resources ul li a {
-    text-decoration: none;
-    color: black; /* Green theme */
-    transition: color 0.3s;
-}
-
-.resources ul li a:hover {
-    color: rgb(0,109,82); /* Darker green on hover */
-}
-
-button {
-    display: block;
-    margin-top: 20px;
-    padding: 10px 20px;
-    background-color: rgb(0,109,82); /* Green theme */
-    color: #fff;
-    border: none;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-button:hover {
-    background-color: #388E3C; /* Darker green */
-}
-
-button a {
-    text-decoration: none;
-    color: #fff;
-}
-
-button:hover a {
-    color: #fff;
-}
-
 .images {
     flex: 1;
     display: flex;
@@ -155,6 +118,14 @@ button:hover a {
 .image img {
     max-width: 100%;
     height: auto;
+}
+
+.image:first-child {
+    height: 300px; /* Adjusted height for better fit */
+}
+
+.image:last-child {
+    height: 300px; /* Adjusted height for better fit */
 }
 
 .interactive-tools {
@@ -179,12 +150,111 @@ button:hover a {
     margin-bottom: 10px;
 }
 
-.interactive-tools ul li a {
+.additional-cards {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #666;
+}
+
+button {
+    display: block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: rgb(0,109,82); /* Green theme */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #388E3C; /* Darker green */
+}
+
+footer {
+    background-color: rgb(0,109,82); /* Green theme */
+    color: #fff;
+    padding: 10px;
+    text-align: center; /* Center content horizontally */
+}
+
+footer nav {
+    display: flex;
+    justify-content: center; /* Center the nav content horizontally */
+}
+
+footer nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Flexbox for horizontal alignment */
+}
+
+footer nav ul li {
+    margin: 0 150px; /* Adjust margin for spacing */
+}
+
+footer nav ul li a {
     text-decoration: none;
-    color: black; /* Green theme */
+    color: #fff; /* White text */
+    padding: 10px;
     transition: color 0.3s;
 }
 
-.interactive-tools ul li a:hover {
-    color: rgb(0,109,82); /* Darker green on hover */
+footer nav ul li a:hover {
+    color: #c8e6c9; /* Light green on hover */
 }
+
+
+
+
+
+
+main .hero {
+    background: url('https://images.unsplash.com/photo-1543362906-acfc16c67564?q=80&w=1965&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') no-repeat center center fixed;
+    background-size: cover;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  main .hero-content {
+      background: rgba(0, 0, 0, 0.5);
+      padding: 10px;
+      border-radius: 10px;
+      text-align: center;
+      animation: fadeInUp 1s ease-in-out;
+      color: #ccc;
+      width: 400px;
+      height: 150px;
+  }
+  
+  main .hero-content p {
+    color: #ccc;
+  }
+  
+  
+  .cta-button {
+    display: inline-block;
+    background-color: #08611a;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #27ae60;
+    transform: translateY(-3px);
+  }
+  
+
+  
