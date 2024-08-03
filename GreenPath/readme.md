@@ -4,7 +4,7 @@
 
 This project is a comprehensive sustainability website developed by our team during our internship. The website aims to provide resources, tools, and community support for promoting sustainable living. The project is built using HTML, CSS, PHP, and MySQL.
 
-![Home page](img\home.png)
+![Home page](https://github.com/Aayush6377/Summer-Internship-2/blob/main/GreenPath/img/home.png)
 
 ## Features
 
@@ -62,12 +62,10 @@ To run this project locally, follow the steps below:
    cd sustainability-website
 
 2. **Start XAMPP**
-   ```bash
    Open XAMPP Control Panel.
    Start Apache and MySQL modules.
 
 3. **Database Setup**
-   ```bash
     Open phpMyAdmin.
     Create a new database named greenpath.
     Import the SQL.sql file to set up the necessary tables:
@@ -76,12 +74,10 @@ To run this project locally, follow the steps below:
     - Choose the SQL.sql file and click Go.
 
 4. **Configuration**
-   ```bash
     Move the project folder to xampp/htdocs directory.
     Ensure all PHP files are within the sustainability-website folder inside htdocs.
 
 5. **Run the Project**
-   ```bash
     Open your web browser and navigate to http://localhost/sustainability-website.
 
 ## Team
